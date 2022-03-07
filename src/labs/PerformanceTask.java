@@ -12,7 +12,7 @@ public class PerformanceTask {
 	System.out.print("Enter launch angle (degrees) >>> ");	
 	int launchAngle = inKey1.nextInt();	
 	System.out.println("Projectile's path: ");
-			
+	// 		
 	int time=0;
 	double yPos = 0;
 	double xPos=Math.cos(Math.toRadians(launchAngle)) * time * launchVelocity;
